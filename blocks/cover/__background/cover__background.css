@@ -1,0 +1,7 @@
+.cover__background {
+  /* background-image: url(../../../images/cover-trains.png); */
+  max-width: 100%;
+  opacity: 0.3;
+  /* object-fit: cover; */
+  /* background-position: center; */
+}

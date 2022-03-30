@@ -1,11 +1,30 @@
 .cover {
-  margin: 0 auto;
   max-width: 1184px;
-  border: 1px solid;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-gap: 32px;
 }
 
-@media screen and (max-width: 1024px) {
+.cover::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: linear 1.5s;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
   .cover {
-    max-width: 100%;
+    grid-gap: 16px;
   }
 }

@@ -3,7 +3,6 @@
   max-width: calc(100% - 148px * 2);
   display: grid;
   gap: 80px;
-  border: 1px solid;
 }
 
 @media screen and (max-width: 1190px) {
@@ -30,5 +29,6 @@
 @media screen and (max-width: 632px) {
   .places {
     gap: 50px;
+    margin-bottom: 66px;
   }
 }

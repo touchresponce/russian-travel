@@ -5,6 +5,9 @@
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-gap: 32px;
+  background-image: url(../../img/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .cover::before {

@@ -12,18 +12,9 @@
   transition: linear 0.5s;
 }
 
-@media screen and (max-width: 768px) {
-  .header__lang-link {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
-    font-weight: 400;
     line-height: 20px;
   }
 }
